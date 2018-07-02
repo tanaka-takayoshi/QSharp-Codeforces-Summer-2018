@@ -1,6 +1,6 @@
-﻿using Microsoft.Quantum.Primitive;
-using Microsoft.Quantum.Simulation.Core;
+﻿using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;
+using System;
 
 namespace Solution
 {
@@ -12,6 +12,7 @@ namespace Solution
             {
                 var received = Test.Run(sim).Result;
             }
+            Console.ReadLine();
         }
     }
 }

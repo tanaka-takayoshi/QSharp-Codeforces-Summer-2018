@@ -1,5 +1,4 @@
-﻿using Microsoft.Quantum.Primitive;
-using Microsoft.Quantum.Simulation.Core;
+﻿using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;
 
 namespace Solution
