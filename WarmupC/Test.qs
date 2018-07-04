@@ -6,7 +6,8 @@
 
     operation Test() : () 
     {
-        body {
+        body
+        {
             using (qubits = Qubit[2]) 
             {
                 Solve(qubits);
@@ -16,7 +17,6 @@
 
             using (qs3 = Qubit[3]) 
             {
-
                 Solve(qs3);
                 DumpMachine("dump-3.txt");
                 ResetAll(qs3);

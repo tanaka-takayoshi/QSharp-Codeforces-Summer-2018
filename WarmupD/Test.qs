@@ -7,13 +7,13 @@
         body {
             using (qs = Qubit[1]) {
                 H(qs[0]);
-				mutable  msg = Solve(qs[0]);
+                mutable  msg = Solve(qs[0]);
                 Message($"+: {msg}");
-				ResetAll(qs);
+                ResetAll(qs);
 
                 X(qs[0]);
                 H(qs[0]);
-				mutable msgs = Solve(qs[0]);
+                mutable msgs = Solve(qs[0]);
                 Message($"-: {msgs}");
                 ResetAll(qs);
             }
