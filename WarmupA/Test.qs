@@ -1,11 +1,15 @@
-﻿namespace Solution {
+﻿namespace Solution
+{
     open Microsoft.Quantum.Primitive;
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Extensions.Diagnostics;
 
-    operation Test() : () {
-        body {
-            using (register = Qubit[1]) {
+    operation Test() : () 
+    {
+        body 
+        {
+            using (register = Qubit[1])
+            {
                 let q = register[0];
                 DumpMachine("dump-initial.txt");
 

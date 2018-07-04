@@ -1,10 +1,14 @@
-﻿namespace Solution {
+﻿namespace Solution
+{
     open Microsoft.Quantum.Primitive;
     open Microsoft.Quantum.Canon;
 
-    operation Solve (q : Qubit, sign : Int) : () {
-        body {
-            if (sign == -1) {
+    operation Solve (q : Qubit, sign : Int) : ()
+    {
+        body 
+        {
+            if (sign == -1) 
+            {
                 X(q);
             } 
             H(q);
