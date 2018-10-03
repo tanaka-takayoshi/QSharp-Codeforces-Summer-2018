@@ -20,6 +20,10 @@
                 Solve(q,1);
                 DumpMachine("dump-1.txt");
                 Reset(q);
+
+                Solve(q,0);
+                DumpMachine("dump-error.txt");
+                Reset(q);
             }
         }
     }
